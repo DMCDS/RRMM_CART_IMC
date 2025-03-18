@@ -1,4 +1,4 @@
-# RRMM_CART_IMC
+# RRMM CART IMC Study
 This Github repository contains the code for data analysis and visualization for the manuscript entitled "Bone marrow spatial signatures predict survival outcomes and toxicities after CAR-T therapy in patients with relapsed/refractory multiple myeloma" by Konishi, Cordas dos Santos, Verga et al. 
 
 The code shown here is for the review process only. Annotations, images and raw data will be added after manuscript acceptance. Raw data (.mcd files) will be deposited at dbGAP. Analysis for computational code for spatial ananlyses will be made public upon acceptance of the manuscript (provided to reviewers by zip. files).  Spatial visualizations (for instance, Main Fig 2D) and heatmap in Fig 1F were performed with the spatial analysis part 
