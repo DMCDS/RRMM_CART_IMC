@@ -1,4 +1,4 @@
-## Packages 
+### Packages ----
 library(readxl)
 library(tidyr)
 library(dplyr)
@@ -6,21 +6,12 @@ library(ggplot2)
 library(survival)
 library(data.table)
 library(ggrepel)
-# library(purrr)
-# library(plotly)
-# library(ComplexHeatmap)
 library(ggpubr)
 library(survminer)
 library(openxlsx)
 library(gridExtra)
 library(compositions)
 library(stringr)
-# library(RJSONIO)
-# library(pROC)
-# library(ggvenn)
-# library(ggVennDiagram)
-# library(RColorBrewer)
-# library(cutpointr)
 library(circlize)
 library(grid)
 library(cmprsk)
@@ -31,9 +22,12 @@ library(lubridate)
 library(prodlim)
 library(ggpattern)
 library(rstatix)
+library(ggridges)
+library(forcats)
+library(tidytext)
 
-
-### Color palettes
+### Color palettes ----
+## Color palette for functional cell type annotation
 color_palette <- c(
   "Classical\nmonocytes" = "#1f77b4",
   "Nonclassical\nmonocytes" = "#87b4d4",
@@ -105,6 +99,7 @@ color_palette_2 <- c(
   "Adipocyte" = '#FFFDD0'
 )
 
+## Color palette for medium cell type annotation
 color_palette_medium <- c(
   "Adipocyte" = '#FFFDD0',
   "B cells" = '#8B4513',
@@ -280,7 +275,7 @@ order_minor <- c("Adipocyte", "B cells", "MBCs","CD4 Tex", "CD4 Tnaive", "Th17 C
                 "Classical monocytes", "Intermediate monocytes","Nonclassical monocytes","ECs",  "M1-like macrophage",
                 "M2-like macrophage",  "MDSCs", "MKs", "MoDC", "Myeloma")
 
-
+## Color palette for minor cell type annotation
 color_palette_minor <- c(
   "Classical\nmonocytes" = "#1f77b4",
   "Nonclassical\nmonocytes" = "#87b4d4",
